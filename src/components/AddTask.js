@@ -43,7 +43,7 @@ export const AddTask = () => {
 					/>
 				</div>
 				<div className="flex flex-col m-4">
-					<label htmlFor="time">Due Time</label>
+					<label htmlFor="time">Due Time - HH:MM</label>
 					<input
 						type="text"
 						id="time"
