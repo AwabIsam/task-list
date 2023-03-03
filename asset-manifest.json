@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/to-do-lost/static/css/main.b091e42c.css",
+    "main.js": "/to-do-lost/static/js/main.f09f4d99.js",
+    "index.html": "/to-do-lost/index.html",
+    "main.b091e42c.css.map": "/to-do-lost/static/css/main.b091e42c.css.map",
+    "main.f09f4d99.js.map": "/to-do-lost/static/js/main.f09f4d99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b091e42c.css",
+    "static/js/main.f09f4d99.js"
+  ]
+}
