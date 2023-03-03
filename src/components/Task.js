@@ -7,7 +7,7 @@ export const Task = ({ task }) => {
 	return (
 		<li className="font-Karla">
 			<div className="flex flex-row items-center">
-				<div className="flex flex-row bg-white w-min my-2 mx-4 rounded-lg min-w-[12rem] py-2 pr-8 items-center ">
+				<div className="flex flex-row bg-white w-min my-2 mx-4 rounded-lg min-w-[10rem] py-2 pr-8 items-center md:min-w-[12rem]">
 					<button onClick={() => changeStatus(task)}>
 						<svg
 							width="48"

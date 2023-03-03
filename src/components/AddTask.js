@@ -8,7 +8,6 @@ export const AddTask = () => {
 
 	const { addTask } = useContext(GlobalContext);
 	const { taskList } = useContext(GlobalContext);
-	const { checkInput } = useContext(GlobalContext);
 
 	const onSubmit = (e) => {
 		e.preventDefault();
@@ -67,7 +66,7 @@ export const AddTask = () => {
 						required
 					/>
 				</div>
-				<button className="bg-lightMaroon w-[8rem] h-[3rem] text-white rounded-sm col-span-2 place-self-end mx-8 mt-5">
+				<button className="bg-lightMaroon w-[8rem] h-[3rem] text-white rounded-sm col-span-2 place-self-end mt-5">
 					Add Task
 				</button>
 			</form>

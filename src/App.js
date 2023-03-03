@@ -9,7 +9,7 @@ import { GlobalProvider } from "./context/GlobalState";
 function App() {
 	return (
 		<GlobalProvider>
-			<div className="bg-offWhite mt-2 pt-12 pb-3 px-6 w-[30rem] text-left shadow-lightingLeft-S">
+			<div className="bg-offWhite mt-2 pt-12 pb-3 px-6 w-[20rem] text-left shadow-lightingLeft-S md:w-[30rem]">
 				<Header />
 				<Tasks />
 				<CompletedTasks />
