@@ -1,4 +1,3 @@
-// export default (state, action) =>
 const AppReducer = (state, action) => {
 	switch (action.type) {
 		case "ADD_TASK":
@@ -14,6 +13,7 @@ const AppReducer = (state, action) => {
 				...state,
 				taskList: [...state.taskList],
 			};
+
 		default:
 			return state;
 	}

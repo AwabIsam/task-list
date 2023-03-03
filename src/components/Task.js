@@ -42,7 +42,7 @@ export const Task = ({ task }) => {
 					<span> {task.text}</span>
 				</div>
 				<div className="flex flex-col items-center justify-center bg-white w-min my-2 mx-4 rounded-lg min-w-[5rem]  min-h-[3.5rem] ml-auto px-2 text-center">
-					<p>{`${task.hour}:${task.min}`}</p>
+					<p>{task.time}</p>
 					<p>{task.day}</p>
 				</div>
 			</div>

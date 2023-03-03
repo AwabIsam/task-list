@@ -6,16 +6,14 @@ const initialState = {
 		{
 			id: 1,
 			text: "Revise for your test",
-			hour: "12",
-			min: "00",
+			time: "12:00",
 			day: "Fri",
 			status: true,
 		},
 		{
 			id: 2,
 			text: "Get Groceries",
-			hour: "17",
-			min: "00",
+			time: "17:00",
 			day: "Fri",
 			status: false,
 		},
