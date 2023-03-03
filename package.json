@@ -1,5 +1,5 @@
 {
-	"homepage": "http://AwabIsam.github.io/to-do-lost",
+	"homepage": "http://AwabIsam.github.io/task-list",
 	"name": "to-do-list",
 	"version": "0.1.0",
 	"private": true,
@@ -15,7 +15,7 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
-		"pedeploy": "npm run build",
+		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
 		"build": "react-scripts build",
 		"test": "react-scripts test",

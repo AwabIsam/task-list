@@ -5,10 +5,19 @@ const initialState = {
 	taskList: [
 		{
 			id: 1,
-			text: "Revise for you test",
+			text: "Revise for your test",
 			hour: "12",
 			min: "00",
 			day: "Fri",
+			status: true,
+		},
+		{
+			id: 2,
+			text: "Get Groceries",
+			hour: "17",
+			min: "00",
+			day: "Fri",
+			status: false,
 		},
 	],
 };
